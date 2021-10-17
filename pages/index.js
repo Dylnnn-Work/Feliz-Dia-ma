@@ -39,7 +39,7 @@ export default function Home() {
         <h1
           className={styles.asd}
           Style="display: block;
-            font-size:80px;
+            font-size:50px;
 "
         >
           Feliz dia Ma!
