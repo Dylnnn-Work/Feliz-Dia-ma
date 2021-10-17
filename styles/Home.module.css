@@ -108,6 +108,12 @@
   margin-left: 0.5rem;
 }
 
+@media(max-width: 384px){
+  .responsive{
+    width:68vh;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
