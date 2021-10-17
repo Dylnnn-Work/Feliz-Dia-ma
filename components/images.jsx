@@ -5,7 +5,7 @@ const Imagenes = () => {
         <div Style="display:flex; flex-direction:column; align-self:center;margin-top:0px">
             {fotos.map((image,index) => {
                 return (
-                        <img src={"/" + image} loader="lazy" key={index} Style="width:700px; height:auto; object-fit:contain;align-self:center;margin-top:0px" />
+                    <img src={"/" + image} loader="lazy" key={index} Style="max-width:52vh; height:auto; object-fit:fill;align-self:center;margin-top:14px" />
                 )
             })}
         </div>
