@@ -1,5 +1,7 @@
 import fotos from "../info"
 import Image from 'next/image'
+import styles from "../styles/Home.module.css";
+
 const Imagenes = () => {
     return (
         <div Style="display:flex; flex-direction:column; align-self:center;margin-top:0px">
